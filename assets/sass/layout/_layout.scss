@@ -1,0 +1,42 @@
+.contenedor-layout {
+  display: grid;
+  border: 1px solid red;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  * {
+    border: 1px solid green;
+  }
+}
+.nav {
+  grid-column: 1 / 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-1 {
+  grid-column: 1 / 2;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-2 {
+  grid-column: 2 / 3;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-3 {
+  grid-column: 3 / 4;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  grid-column: 1 / 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
